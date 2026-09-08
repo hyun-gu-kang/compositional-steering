@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Steering Composition Viewer</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<header>
+  <h1>Steering Composition Viewer</h1>
+  <span class="sub">language &middot; conciseness &middot; jailbreak:  baseline vs. steered generations</span>
+</header>
+
+<div class="controls" id="controls">
+  <div class="field">
+    <label>Setup</label>
+    <div class="setup-toggle" id="setupToggle">
+      <button data-setup="single" class="active">Single</button>
+      <button data-setup="double">Double</button>
+      <button data-setup="triple">Triple</button>
+    </div>
+  </div>
+
+  <div class="field">
+    <label>Model</label>
+    <select id="modelSelect"></select>
+  </div>
+
+  <div class="field" id="attrField">
+    <label>Attribute</label>
+    <select id="attrSelect"></select>
+  </div>
+
+  <div class="field" id="pairField">
+    <label>Language pair</label>
+    <select id="pairSelect"></select>
+  </div>
+
+  <div class="field" id="layerField">
+    <label>Layer</label>
+    <select id="layerSelect"></select>
+  </div>
+
+  <div class="field" id="alphaField">
+    <label>Alpha</label>
+    <select id="alphaSelect"></select>
+  </div>
+</div>
+
+<main id="main">
+  <div class="empty-state">Loading manifest&hellip;</div>
+</main>
+
+<script src="data/manifest.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
