@@ -17,7 +17,7 @@ The corresponding Python scripts will be uploaded soon.
 
 ## Generations
 
-All generated samples are available in the interactive `viewer.html` for all tested models—`Llama-3.1-8B-Instruct`, `Llama-3.1-70B-Instruct`, `Qwen2.5-14B-Instruct`, and `Qwen2.5-32B-Instruct`—and all three behaviors: <span style="color:#365f8a">**ℒ** language</span> (steering from English to non-English languages), <span style="color:#4c9a63">**𝒥** jailbreak</span> (steering towards compliance with harmful instructions), and <span style="color:#d98b24">**𝒞** conciseness</span> (steering towards brief generations).
+All generated samples are available in the interactive `/viewer` for all tested models—`Llama-3.1-8B-Instruct`, `Llama-3.1-70B-Instruct`, `Qwen2.5-14B-Instruct`, and `Qwen2.5-32B-Instruct`—and all three behaviors: <span style="color:#365f8a">**ℒ** language</span> (steering from English to non-English languages), <span style="color:#4c9a63">**𝒥** jailbreak</span> (steering towards compliance with harmful instructions), and <span style="color:#d98b24">**𝒞** conciseness</span> (steering towards brief generations).
 
 ## Citation
 
