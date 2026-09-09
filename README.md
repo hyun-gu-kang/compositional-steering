@@ -1,7 +1,6 @@
 # Compositional Multilingual and Behavioral Attribute Steering
 
-[![arXiv](https://img.shields.io/badge/arXiv-none-b31b1b.svg)]()
-(Paper link will appear soon!)
+[![arXiv](https://img.shields.io/badge/arXiv-none-2609.08410.svg)](https://arxiv.org/pdf/2609.08410)
 
 This repository contains the code for **"Compositional Multilingual and Behavioral Attribute Steering"**, to appear at **BlackBoxNLP @ EMNLP 2026**.
 
@@ -21,7 +20,14 @@ All generated samples are available in the interactive `/viewer` for all tested 
 
 ## Citation
 
-(The bibtex will be updated soon!)
 ```bibtex
-
+@misc{kang2026compositionalmultilingualbehavioralattribute,
+      title={Compositional Multilingual and Behavioral Attribute Steering}, 
+      author={Hyun Gu Kang and Daniil Gurgurov and Tanja Baeumel and Josef van Genabith and Simon Ostermann},
+      year={2026},
+      eprint={2609.08410},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2609.08410}, 
+}
 ```
