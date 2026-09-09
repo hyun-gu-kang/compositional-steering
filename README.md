@@ -1,6 +1,6 @@
 # Compositional Multilingual and Behavioral Attribute Steering
 
-[![arXiv](https://img.shields.io/badge/arXiv-none-2609.08410.svg)](https://arxiv.org/pdf/2609.08410)
+[![arXiv](https://img.shields.io/badge/arXiv-2609.08410-b31b1b.svg)](https://arxiv.org/pdf/2609.08410)
 
 This repository contains the code for **"Compositional Multilingual and Behavioral Attribute Steering"**, to appear at **BlackBoxNLP @ EMNLP 2026**.
 
