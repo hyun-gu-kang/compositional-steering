@@ -17,10 +17,21 @@ huggingface-cli login            # Llama 3.1 and FLORES+ are gated on the Hub
 python scripts/download_data.py  # harmful/harmless splits and IFEval prompts
 ```
 
-The data script fetches the harmful/harmless splits of Arditi et al. (2024) and
-the instruction-stripped IFEval prompts of Stolfo et al. (2025) into `data/`;
-they are not redistributed with this repository. Large models are split across
+Large models are split across
 all visible GPUs with TransformerLens (`n_devices = torch.cuda.device_count()`).
+
+### Data
+
+`python scripts/download_data.py` creates the files below. They come from other
+repositories and are not redistributed here (`data/` is git-ignored).
+
+| File | Source | Used for |
+|---|---|---|
+| `data/refusal_direction/{harmful_train,harmful_test,harmless_train}.json` | [andyrdt/refusal_direction](https://github.com/andyrdt/refusal_direction) (Arditi et al., 2024) | jailbreak vector (train splits), jailbreak evaluation prompts (test split) |
+| `data/ifeval_en.json` | `model_output` field of `data/ifeval_wo_instructions.jsonl` in [microsoft/llm-steer-instruct](https://github.com/microsoft/llm-steer-instruct) (Stolfo et al., 2025) | conciseness vector (instruction-stripped IFEval prompts) |
+
+FLORES+ (language vector) and CLaS-Bench (language and conciseness evaluation
+prompts) are loaded directly from the Hugging Face Hub.
 
 ## Reproducing the paper
 
