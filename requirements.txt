@@ -1,0 +1,12 @@
+torch
+transformer_lens
+transformers
+accelerate
+datasets
+huggingface_hub
+fasttext
+numpy
+pandas
+matplotlib
+seaborn
+tqdm
